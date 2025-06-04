@@ -1,0 +1,46 @@
+[project]
+name = "rl-benchmark"
+version = "0.1.0"
+description = "Reward shaping and architecture ablations for a Gymnasium-based RL benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Esteban Montelongo", email = "emontel1@depaul.edu"},
+  {name = "James Evarts", email = "jevarts@depaul.edu"},
+  {name = "Abhaya Basnet", email = "abasnet@depaul.edu"}
+]
+
+# Core runtime dependencies
+[project.dependencies]
+gymnasium = ">=0.29"
+stable-baselines3 = ">=2.3"
+torch = ">=2.1"
+numpy = ">=1.23"
+matplotlib = ">=3.7"
+optuna = ">=3.2"
+wandb = ">=0.16"
+pandas = ">=2.0"
+
+[project.optional-dependencies]
+# Developer tooling: run `pip install -e .[dev]`
+dev = [
+    "black>=24.3",
+    "flake8>=7.0",
+    "isort>=5.13",
+    "nbstripout>=0.6",
+    "pre-commit>=3.5"
+]
+
+[build-system]
+requires = [
+  "setuptools>=65",
+  "wheel>=0.40"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
