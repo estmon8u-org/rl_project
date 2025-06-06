@@ -1,25 +1,25 @@
 # --- core RL stack ---
-gymnasium[atari,accept-rom-license]
-ale-py
-shimmy
-stable-baselines3
+gymnasium[atari,accept-rom-license]==1.1.1
+ale-py==0.11.1
+shimmy>=2.0.0
+stable-baselines3==2.6.0
 stable-baselines3[extra]
-torch
-torchvision
+torch==2.7.1
+torchvision==0.22.1
 opencv-python
 
 # --- science / data ---
-numpy
-pandas
-matplotlib
-optuna
+numpy==2.2.6
+pandas==2.3.0
+matplotlib==3.10.3
+optuna==4.2.0
 
 # --- experiment tracking & viz ---
-wandb
-tensorboard
+wandb==0.20.1
+tensorboard==2.19.0
 
 # --- notebooks / widgets ---
-jupyterlab
-notebook
-ipykernel
-ipywidgets
+jupyterlab==4.4.3
+notebook==7.4.3
+ipykernel==6.29.5
+ipywidgets==8.1.7
