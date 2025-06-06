@@ -1,0 +1,25 @@
+# --- core RL stack ---
+gymnasium[atari,accept-rom-license]
+ale-py
+shimmy
+stable-baselines3
+stable-baselines3[extra]
+torch
+torchvision
+opencv-python
+
+# --- science / data ---
+numpy
+pandas
+matplotlib
+optuna
+
+# --- experiment tracking & viz ---
+wandb
+tensorboard
+
+# --- notebooks / widgets ---
+jupyterlab
+notebook
+ipykernel
+ipywidgets
