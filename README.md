@@ -17,11 +17,11 @@ This project is the final assignment for CSC 594: Deep Generative Models at DePa
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Install dependencies
-pip install -e .
+# Update pip
+python.exe -m pip install --upgrade pip
 
-# For development tools
-pip install -e ".[dev]"
+# Install requirements
+pip install -r requirements.txt
 ```
 
 ## Usage

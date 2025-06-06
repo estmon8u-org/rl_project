@@ -43,3 +43,8 @@ Thumbs.db
 # ---- Cython / generated ----
 *.c
 *.cpp
+
+# ---- Output directories ----
+output*/
+wandb*/
+runs/
