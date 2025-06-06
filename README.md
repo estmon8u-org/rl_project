@@ -18,10 +18,10 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Update pip
-pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 
-# Install dependencies
-pip install -e .
+# Install requirements
+pip install -r requirements.txt
 ```
 
 ## Usage
