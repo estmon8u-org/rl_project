@@ -1,0 +1,28 @@
+{
+    "DQN": {
+        "Best Score": 12.0,
+        "learning_rate": 0.0008922999547763263,
+        "gamma": 0.963699254274138,
+        "exploration_fraction": 0.22841690704386486,
+        "exploration_final_eps": 0.12785727673310815
+    },
+    "PPO": {
+        "Best Score": 19.6,
+        "learning_rate": 0.00021583397046652313,
+        "n_steps": 1024,
+        "gamma": 0.9697534256738706,
+        "gae_lambda": 0.9514837162264114,
+        "ent_coef": 0.0008672763353819116,
+        "vf_coef": 0.6507747866988862,
+        "clip_range": 0.1
+    },
+    "A2C": {
+        "Best Score": 6.4,
+        "learning_rate": 2.514051648698543e-05,
+        "n_steps": 512,
+        "gamma": 0.9769994611075434,
+        "gae_lambda": 0.9249166686550633,
+        "ent_coef": 4.5139275815783024e-05,
+        "vf_coef": 0.3479105041017407
+    }
+}
